@@ -1,0 +1,229 @@
+/* Navbar styles */
+header {
+    background-color: white;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0;
+    justify-content: center;
+    display: flex;
+}
+
+nav li {
+    display: inline;
+    margin-right: 50px;
+    font-size: 30px;
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Add hover effect */
+/* Add this CSS code to your existing style.css file */
+nav ul li a {
+    color: orange;
+    text-decoration: none;
+
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+/*Hero-Section styles */
+.My-hero {
+    background-image: linear-gradient;
+    text-align: center;
+    padding: 100px;
+
+}
+
+.hero-content {
+    color: #fff;
+
+}
+
+.hero h1 {
+    font-size: 40px;
+}
+
+.button {
+    background-color: orange;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: white;
+    color: orange;
+}
+
+/* About section styles */
+.about-me {
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+    line-height: 1.5;
+    /* Adjust the line height for better readability */
+    color: #333;
+    /*change the text color */
+    background-color: aqua;
+    /* Add a background color to the paragraph */
+
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+    margin-right: 10px;
+
+}
+
+li a {
+    text-decoration: none;
+    color: orange;
+    transition: background-color 0.3s;
+}
+
+li a:hover {
+    background-color: darkorange;
+    color: white;
+}
+
+li a:visited {
+    color: orange;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+/* service section */
+.service-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-card {
+    width: 30%;
+    background-color: orange;
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px;
+    /* Add a border with white color */
+    ;
+    box-sizing: border-box;
+    /* include the border in the card's dimensions */
+}
+
+.service-card h3 {
+    color: white;
+}
+
+.service-card p {
+    color: black;
+    margin-top: 10px;
+}
+
+/* contact section */
+.contact-section {
+    text-align: center;
+}
+
+.section-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* contact */
+body {
+    font-family: Arial, sans-serif;
+    background-color: aqua;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba (0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 10%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.form-group input [type="submit"] {
+    background-color: aqua;
+    color: #fff;
+    cursor: pointer;
+
+}
+.form-group input [type="submit"] :hover{
+    background-color: blueviolet;
+}
+
+.form-group textarea{
+    height: 120px;
+}
